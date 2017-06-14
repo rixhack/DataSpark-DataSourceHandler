@@ -1,2 +1,3 @@
-./src/nl/tue/dataspark/datasourcehandler/twitter4j.properties
-./nbproject/private/
+nbproject/
+build/
+twitter4j.properties
