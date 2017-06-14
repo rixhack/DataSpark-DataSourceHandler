@@ -59,7 +59,7 @@ public class QueryHandlerTest {
         assertNotNull(result.getValue());
     }
     
-    @Test(timeout=1200)
+    @Test(timeout=2000)
     public void testGetDataValueBulk() throws Exception {
         final QueryHandler instance = new QueryHandler();
         

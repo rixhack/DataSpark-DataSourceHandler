@@ -26,6 +26,7 @@ public class QueryHandler {
         cache = new Cache();
         clients = new HashMap();
         clients.put("random", RandomDataSourceClient.getClient());
+        clients.put("twitter", TwitterDataSourceClient.getClient());
         
         pool = Executors.newFixedThreadPool(10);
     }

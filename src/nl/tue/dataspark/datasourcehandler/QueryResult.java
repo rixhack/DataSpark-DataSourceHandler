@@ -37,6 +37,8 @@ public class QueryResult {
     
     public Double getValue() {
         if (!this.isSuccesful()) {
+            System.out.println("This is the exception: ");
+            this.exception.printStackTrace();
             throw new IllegalStateException();
         }
         return this.result;
